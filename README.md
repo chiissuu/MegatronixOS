@@ -1,12 +1,83 @@
-# Proyecto I  - MEGATRONIX - Sistemas Operativos
-Integrantes del proyecto:
+# MegatronixOS
 
-* **Jesús León Romero Atienza** (Username de GITHUB: **chiissuu**)
+![Language](https://img.shields.io/badge/language-C-blue)
+![Platform](https://img.shields.io/badge/platform-Linux-green)
+![Build](https://img.shields.io/badge/build-GCC-orange)
+![Status](https://img.shields.io/badge/status-Active-success)
 
-* **Mario Viso Quito** (Username de GITHUB: **Marioo239**)
+MegatronixOS is an educational operating systems project developed in C that implements core operating system concepts such as process scheduling, memory management and inter-process communication.
 
-PDF del Proyecto:
-* **https://liveutad-my.sharepoint.com/:w:/r/personal/jesus_romero_live_u-tad_com/Documents/Proyecto%20I%20-%20SIOS%20-%20Jes%C3%BAs%20y%20Mario.docx?d=wf7163ed6fb4746b9a34851be891a247b&csf=1&web=1&e=VHVJM8** 
+The project was designed to explore low-level systems programming while providing a practical implementation of the fundamental components found in modern operating systems.
 
-Video del Proyecto:
-* **https://drive.google.com/file/d/1IaameZ2miNg_9N8i10nwMCZ58fPZKm3j/view?usp=sharing**
+## Features
+
+- Process creation and management
+- CPU scheduling algorithms
+- Memory allocation and management
+- Inter-process communication
+- Synchronization primitives
+- System-level programming in C
+
+## Technologies
+
+- C
+- GNU GCC
+- Linux
+- POSIX APIs
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/chiissuu/MegatronixOS.git
+cd MegatronixOS
+```
+
+Compile the project:
+
+```bash
+gcc MEMsym.c -o megatronixos
+```
+
+Run the executable:
+
+```bash
+./megatronixos
+```
+
+## Project Structure
+
+```text
+src/
+├── scheduler/
+├── memory/
+├── processes/
+├── ipc/
+└── utils/
+
+include/
+tests/
+docs/
+```
+
+## Contributing
+
+Contributions, bug reports and feature suggestions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a Pull Request
+
+## Contributors
+
+- Jesús León Romero Atienza (Username de GITHUB: chiissuu)
+
+- Mario Viso Quito (Username de GITHUB: Marioo239)
+
+
+
+## License
+
+This project is distributed for educational purposes.

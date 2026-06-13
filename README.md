@@ -11,10 +11,7 @@ The project was designed to explore low-level systems programming concepts, incl
 
 ## Project Structure
 
-```text
-## Project Structure
-
-```text
+```
 MegatronixOS/
 ├── MEMsym.c
 ├── CONTENTS_RAM.bin
